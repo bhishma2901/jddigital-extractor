@@ -1,0 +1,24 @@
+name: jddigital_extractor
+description: A Flutter app for batch image OCR and text/number extraction.
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^6.1.1
+  image_cropper: ^5.0.0
+  easyocr: ^1.0.0
+  google_mlkit_text_recognition: ^0.10.0
+  path_provider: ^2.1.2
+  archive: ^3.4.6
+  expandable: ^5.0.1
+  csv: ^5.0.2
+  permission_handler: ^11.3.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
