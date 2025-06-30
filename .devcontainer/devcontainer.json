@@ -1,0 +1,6 @@
+{
+  "name": "Flutter Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/flutter:latest",
+  "features": {},
+  "postCreateCommand": "flutter --version"
+}
